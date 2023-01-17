@@ -1,1 +1,0 @@
-# Innoraft Training Tasks
