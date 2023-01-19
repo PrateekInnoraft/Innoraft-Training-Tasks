@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: #0b518b;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d9d9d9;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 110px;
+}
+
+.navbar img {
+    padding: 0px 300px 0px 0px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.navlist .list-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #0b518b;
+    text-decoration: none;
+}
+
+.navlist a:hover {
+    background-color: black;
+    color: white;
+    padding: 15px 20px 15px 20px;
+}
+
+.banner {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #06a3cc;
+    align-items: center;
+    color: white;
+    padding: 100px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent1 {
+    font-size: 0px;
+    height: 320px;
+    margin: 15px 150px 15px 150px;
+}
+
+.body2 {
+    position: relative;
+    font-size: 0px;
+    vertical-align: top;
+    background-color: #ffe469;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+}
+
+.body3 {
+    position: absolute;
+    background-color: #d39ed6;
+    top: 380px;
+    left: 120px;
+    height: 30%;
+    width: 12%;
+}
+
+.parent2 {
+    font-size: 0px;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+.body4 {
+    font-size: 0px;
+    display: block;
+    background-color: #ed8719;
+    height: 65%;
+    width: 100%;
+    margin: 0px 0px 15px 15px;
+}
+
+.form {
+    background-color: #f8a549;
+    height: 40px;
+    width: 400px;
+    margin: 5px 5px 5px 10px;
+    border: 1px solid #f5b572;
+    color: white;
+    border-radius: 2px;
+}
+
+.body5 {
+    font-size: 0px;
+    display: inline-block;
+    background-color: #8ae33b;
+    height: calc(35% - 15px);
+    width: 100%;
+    margin: 0px 0px 0px 15px;
+}
+
+.body6 {
+    color: white;
+    background-color: #007594;
+    height: 55px;
+}
+
+.footer {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer .list-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: black;
+    color: white;
+    padding: 15px 20px 15px 20px;
+}
