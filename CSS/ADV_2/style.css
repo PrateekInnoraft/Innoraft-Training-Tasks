@@ -141,7 +141,7 @@ h5 {
 }
 
 .image1 {
-    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url("img-1.jpg");
+    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url(img-1.jpg);
     height: 750px;
     background-position: center;
     background-size: cover;
@@ -228,7 +228,7 @@ span {
 }
 
 .image2 {
-    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url("img-2.jpg");
+    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url(img-2.jpg);
     height: 600px;
     background-position: center;
     background-size: cover;
@@ -350,7 +350,7 @@ span {
 }
 
 .image3 {
-    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url("img-4.jpg");
+    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url(img-4.jpg);
     background-position: 0px -250px;
     background-size: cover;
 }
@@ -433,7 +433,7 @@ span {
 }
 
 .image4 {
-    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url("img-3.jpg");
+    background-image: linear-gradient(rgba(7, 2, 44, 0.834), rgba(7, 2, 44, 0.834)), url(img-3.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
