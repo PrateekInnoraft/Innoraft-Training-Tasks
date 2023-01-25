@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox img {
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: center;
+    font-size: 15px;
+    padding: 0px 200px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 15px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(216, 210, 210);
+    color: black;
+}
+
+.dropbtn .dropdown {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: inherit;
+    background-color: inherit;
+    padding: 10px;
+}
+
+.dropbtn:hover .dropdown {
+    background-color: rgb(208, 202, 202);
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content a:hover {
+    background-color: rgb(252, 246, 246);
+}
+
+.dropbtn:hover .content {
+    display: block;
+}
+
+.searchborder {
+    border: 0px;
+    width: 60px;
+}
+
+button {
+    border: 0px;
+    background-color: white;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/design 3 task/banner.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(79, 69, 69, 0.45);
+    background-blend-mode: color;
+    width: 100%;
+    height: 683px;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: #b64746;
+    width: 35%;
+    height: 682px;
+    position: absolute;
+}
+
+.overlay2 {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 5;
+}
+
+.heading {
+    padding: 100px 0px 0px 200px;
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+.know_more1 {
+    position: relative;
+    z-index: 3;
+    padding: 50px 0px 0px 200px;
+}
+
+.know_more2 {
+    position: relative;
+    z-index: 3;
+    padding: 50px 0px 100px 200px;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button1:hover {
+    background-color: rgb(192, 176, 176);
+}
+
+.button2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    background-color: rgb(192, 176, 176);
+}
+
+.footer {
+    position: relative;
+    z-index: 3;
+    color: white;
+    margin: 0px 100px 0px 200px;
+    padding: 0px 0px 10px 0px;
+    background-color: rgba(0, 0, 0, 0.475);
+    backdrop-filter: blur(5px);
+}
+
+.footer h3 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    display: inline;
+    padding: 0px 40px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.footer h1 {
+    margin-top: 5px;
+}
