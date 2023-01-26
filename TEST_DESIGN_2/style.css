@@ -184,7 +184,7 @@ h1 {
 }
 
 .bgimage {
-    background-image: url("/design 2 task/banner.jpg");
+    background-image: url(banner.jpg);
     width: 100%;
     height: 525px;
     background-color: rgba(0, 0, 0, 0.645);
