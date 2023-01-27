@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SpaceGrotesk';
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar1 {
+    background-color: #032a31;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 0px 100px;
+}
+
+.navbar1 p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-right: 25px;
+    padding: 10px 50px 10px 0px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.navbar1 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+.navbar1 li {
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.navbar1 li img {
+    vertical-align: middle;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 15px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.navbar2 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    font-size: 15px;
+    margin-left: auto;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.navbar2 .flexbox img {
+    padding: 15px 0px 20px 0px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.grey {
+    color: #646464;
+}
+
+.blue {
+    color: #051c3b;
+}
+
+.navbar3 {
+    background-color: #813d16;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 0px 100px 0px 100px;
+}
+
+.navlist3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right: auto;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+.navbar3 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar3 a:hover {
+    background-color: #032a31;
+    transition: 0.5s;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.bg {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 0px;
+    padding: 10px 0px;
+}
+
+.navbtnbg {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px;
+}
+
+.image {
+    background-image: url("/design 1 task/banner.jpg");
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.645);
+    background-blend-mode: color;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    padding: 100px 0px 20px 0px;
+}
+
+.image h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: white;
+    font-size: 60px;
+}
+
+.image p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.button1 {
+    color: #813d16;
+    background-color: white;
+    border: 0px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.image button:hover {
+    background-color: #813d16;
+    color: white;
+    transition: 0.5s;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: #813d16;
+}
+
+.button2 {
+    margin: 30px 0px 0px 50px;
+    cursor: pointer;
+}
+
+.playbtn {
+    padding: 20px;
+    background-color: #813d16;
+    border-radius: 50%;
+}
+
+.button3 {
+    color: white;
+    margin-left: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #032a31;
+    height: 100px;
+    width: 100%;
+}
+
+.footercolor {
+    font-size: 20px;
+    color: white;
+}
+
+.footercolor img {
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+}
+
+.footerpad {
+    padding: 25px 50px 25px 0px;
+    margin-left: 31px;
+    border-right: 1px solid white;
+}
