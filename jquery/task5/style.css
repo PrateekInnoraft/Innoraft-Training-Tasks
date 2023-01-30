@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    height: calc(20vh - 15px);
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    background-color: #55d4eb;
+}
+
+.parent1 {
+    float: left;
+    height: 60vh;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
+.body2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    float: left;
+    height: 60vh;
+    width: 35%;
+    margin: 0px 7.5px 15px 0px;
+    background-color: #a0c263;
+}
+
+.body3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    float: left;
+    height: 45vh;
+    width: calc(65% - 15px);
+    margin: 0px 0px 15px 7.5px;
+    background-color: #f5c531;
+}
+
+.body4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    float: left;
+    height: calc(15vh - 15px);
+    width: calc(65% - 15px);
+    margin: 0px 0px 15px 7.5px;
+    background-color: #898989;
+}
+
+.parent3 {
+    height: calc(20vh - 15px);
+    width: 100%;
+    margin: 0px;
+    float: left;
+}
+
+.body5 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: block;
+    height: calc(20vh - 15px);
+    width: 100%;
+    margin: 0px;
+    background-color: #ffa500;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.8);
+    font-size: 40px;
+}
+
+.cross {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
