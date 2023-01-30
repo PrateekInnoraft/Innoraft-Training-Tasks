@@ -1,0 +1,17 @@
+.clickme {
+    background-color: #e5eecc;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: transparent;
+    padding-top: 25px;
+}
+
+.panel {
+    background-color: #dfedff;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+}
