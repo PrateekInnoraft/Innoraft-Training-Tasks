@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/jquery task 4/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".body4").click(function() {
+                $(".body3").fadeOut("slow");
+            });
+            $(".body2").click(function() {
+                $(".body2").text("Leftbar");
+            });
+            $(".body1").click(function() {
+                $(".body1").css("background-color", "red");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="body1">Header</div>
+    <div class="parent1">
+        <div class="body2">Sidebar</div>
+        <div class="body3">Main Content</div>
+        <div class="body4">Extra Content</div>
+    </div>
+    <div class="parent3">
+        <div class="body5">Footer</div>
+    </div>
+</body>
+
+</html>
