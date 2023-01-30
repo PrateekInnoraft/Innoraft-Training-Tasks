@@ -1,0 +1,17 @@
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.sbmt {
+    margin-top: 10px;
+    display: block;
+}
+
+.i1 {
+    border: 2px solid black;
+}
+
+.i2 {
+    border: 2px solid black;
+}

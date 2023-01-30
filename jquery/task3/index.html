@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/jquery task 3/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".sbmt").click(function() {
+                var i1 = $(".i1").val();
+                if (i1 == 0) {
+                    alert("Please fill all the fields");
+                }
+                var i2 = $(".i2").val();
+                if (i2 == 0) {
+                    alert("Please fill all the fields");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <p>
+                First Name:
+            </p>
+            <input type="text" class="i1" placeholder="Mickey">
+            <p>
+                Last name:
+            </p>
+            <input type="text" class="i2" placeholder="Mouse">
+            <button class="sbmt">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
